@@ -1,0 +1,94 @@
+  body {
+    background: #111;
+    color: #ccc;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.7;
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+
+  a { color: #7dd3fc; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  h1 { color: #fff; font-size: 1.5em; margin: 0 0 4px; }
+  h2 { color: #7dd3fc; font-size: 1em; text-transform: uppercase;
+       letter-spacing: 0.1em; border-bottom: 1px solid #2a2a2a;
+       padding-bottom: 6px; margin: 48px 0 20px; }
+  h3 { color: #fff; font-size: 1em; margin: 0 0 2px; }
+
+  p { margin: 0 0 12px; }
+  p:last-child { margin-bottom: 0; }
+
+  hr { border: none; border-top: 1px solid #2a2a2a; margin: 40px 0; }
+
+  .tagline { color: #aaa; margin: 0 0 6px; }
+  .available { color: #4ade80; }
+  .meta { color: #666; margin: 16px 0 0; }
+  .meta a { color: #aaa; }
+
+  .photo {
+    float: right;
+    margin: 0 0 16px 32px;
+    width: 140px;
+  }
+  .photo img {
+    width: 140px;
+    height: 170px;
+    object-fit: cover;
+    object-position: 50% 15%;
+    display: block;
+    filter: grayscale(0.2);
+  }
+
+  .role { margin-bottom: 36px; }
+  .role-header { display: flex; justify-content: space-between;
+                 flex-wrap: wrap; gap: 4px; }
+  .role-date { color: #666; }
+  .role-company { color: #7dd3fc; margin: 2px 0 10px; }
+  .role-note { background: #1a1a1a; padding: 14px 16px;
+               margin-top: 8px; color: #999; }
+  .role-note strong { color: #ccc; }
+
+  .caps { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .cap h3 { color: #7dd3fc; margin-bottom: 6px; }
+
+  .pills { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+  .pill { border: 1px solid #2a2a2a; padding: 4px 10px; color: #ccc; }
+  .pill.highlight { border-color: #7dd3fc; color: #7dd3fc; }
+  .pill.progress { border-color: #4ade80; color: #4ade80; }
+
+  blockquote {
+    border-left: 2px solid #7dd3fc;
+    margin: 24px 0 0;
+    padding: 2px 0 2px 20px;
+    color: #aaa;
+  }
+  blockquote cite {
+    display: block;
+    margin-top: 8px;
+    font-size: 0.85em;
+    color: #666;
+  }
+
+  .cta { margin-top: 20px; display: flex; gap: 16px; flex-wrap: wrap; }
+  .btn {
+    border: 1px solid #7dd3fc;
+    color: #7dd3fc;
+    padding: 10px 20px;
+    display: inline-block;
+  }
+  .btn:hover { background: #7dd3fc; color: #111; text-decoration: none; }
+  .btn-primary { background: #7dd3fc; color: #111; }
+  .btn-primary:hover { background: #38bdf8; }
+
+  footer { color: #444; font-size: 0.85em; margin-top: 64px;
+           display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+
+  @media (max-width: 560px) {
+    .photo { float: none; margin: 0 0 24px; }
+    .caps { grid-template-columns: 1fr; }
+    .role-header { flex-direction: column; }
+    .cta { flex-direction: column; }
+  }
