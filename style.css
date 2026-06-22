@@ -1,8 +1,8 @@
-body{background:#111;color:#ccc;font-family:monospace;font-size:15px;line-height:1.7;max-width:780px;margin:0 auto;padding:48px 24px 80px}
-a{color:#7dd3fc;text-decoration:none}
+body{background:#0b1220;color:#d1d5db;font-family:Consolas,'Courier New',monospace;font-size:15px;line-height:1.8;max-width:780px;margin:0 auto;padding:48px 24px 80px}
+a{color:#93c5fd;text-decoration:none}
 a:hover{text-decoration:underline}
 h1{color:#fff;font-size:1.5em;margin:0 0 4px}
-h2{color:#7dd3fc;font-size:1em;text-transform:uppercase;letter-spacing:.1em;border-bottom:1px solid #2a2a2a;padding-bottom:6px;margin:48px 0 20px}
+h2{color:#93c5fd;font-size:1em;text-transform:uppercase;letter-spacing:.1em;border-bottom:1px solid #2a2a2a;padding-bottom:6px;margin:48px 0 20px}
 h3{color:#fff;font-size:1em;margin:0 0 2px}
 p{margin:0 0 12px}
 p:last-child{margin-bottom:0}
@@ -17,19 +17,19 @@ p:last-child{margin-bottom:0}
 .role{margin-bottom:36px}
 .role-header{display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px}
 .role-date{color:#666}
-.role-company{color:#7dd3fc;margin:2px 0 10px}
+.role-company{color:#93c5fd;margin:2px 0 10px}
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
-.grid h3{color:#7dd3fc;margin-bottom:6px}
+.grid h3{color:#93c5fd;margin-bottom:6px}
 .pills{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
 .pill{border:1px solid #2a2a2a;padding:4px 10px}
-.pill.accent{border-color:#7dd3fc;color:#7dd3fc}
+.pill.accent{border-color:#93c5fd;color:#93c5fd}
 .pill.green{border-color:#4ade80;color:#4ade80}
-blockquote{border-left:2px solid #7dd3fc;margin:24px 0 0;padding:2px 0 2px 20px;color:#aaa}
+blockquote{border-left:2px solid #93c5fd;margin:24px 0 0;padding:2px 0 2px 20px;color:#aaa}
 blockquote cite{display:block;margin-top:8px;font-size:.85em;color:#666}
 .cta{margin-top:20px;display:flex;gap:16px;flex-wrap:wrap}
-.btn{border:1px solid #7dd3fc;color:#7dd3fc;padding:10px 20px;display:inline-block}
-.btn:hover{background:#7dd3fc;color:#111;text-decoration:none}
-.btn.filled{background:#7dd3fc;color:#111}
+.btn{border:1px solid #93c5fd;color:#93c5fd;padding:10px 20px;display:inline-block}
+.btn:hover{background:#93c5fd;color:#111;text-decoration:none}
+.btn.filled{background:#93c5fd;color:#111}
 .btn.filled:hover{background:#38bdf8}
 footer{color:#444;font-size:.85em;margin-top:64px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
 @media(max-width:560px){.photo{float:none;margin:0 0 24px}.grid{grid-template-columns:1fr}.role-header{flex-direction:column}.cta{flex-direction:column}}
